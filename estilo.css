@@ -32,6 +32,18 @@ a:hover{
   color: white;
 }
 
+footer {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  background: transparent;
+  padding: 16px 20px;
+  margin-top: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .bandera{
   position: fixed;
   width: 100px;
