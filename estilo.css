@@ -1,0 +1,33 @@
+body{
+  margin:0;
+  height:100vh;
+  background-color: purple;
+
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+a{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;  
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: white;
+}
