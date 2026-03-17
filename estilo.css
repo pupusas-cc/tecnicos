@@ -1,8 +1,6 @@
 body{
   margin:0;
   height:100vh;
-  background-color: purple;
-
   display:flex;
   flex-direction: column;
   justify-content:flex-start;
@@ -12,7 +10,7 @@ body{
 h1{
   font-family: "Times New Roman", Times, serif;
   font-size: 34px;
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 20px;
 }
