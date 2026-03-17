@@ -4,43 +4,7 @@
 <meta charset="UTF-8">
 <title>tecnicos.best</title>
 <link rel="icon" href="foto.ico" type="image/x-icon">
-
-<style>
-body{
-  margin:0;
-  height:100vh;
-  background-color: purple;
-
-  display:flex;
-  flex-direction: column;
-  justify-content:flex-start;
-  align-items:center;
-}
-
-h1{
-  font-family: "Times New Roman", Times, serif;
-  font-size: 34px;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-}
-
-a{
-  font-family: "Times New Roman", Times, serif;
-  font-size: 26px;  
-  color: white;
-  text-decoration: underline;
-}
-
-a:visited{
-  color: white;
-}
-
-a:hover{
-  color: white;
-}
-</style>
-
+<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
@@ -57,35 +21,7 @@ a:hover{
 
 <h1>y más vienen pronto</h1>
 <h1>preguntas -- comentarios -- comuniquese al +1 (617) 706-6561</h1>
-<script>
-const colors = [
-  "purple",
-  "gray",
-  "forestgreen",
-  "gray",
-  "teal",
-  "gray",
-  "black",
-  "gray",
-  "blue",
-  "gray",
-  "pink",
-  "gray",
-  "orange",
-  "gray",
-  "magenta",
-  "gray",
-  "maroon",
-  "gray",
-];
-
-let i = 0;
-
-setInterval(() => {
-  i = (i + 1) % colors.length;
-  document.body.style.backgroundColor = colors[i];
-}, 1750);
-</script>
-
+  
+<script src="principal.js"></script>
 </body>
 </html>
