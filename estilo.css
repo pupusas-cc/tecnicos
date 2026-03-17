@@ -40,12 +40,12 @@ a:hover{
   animation: spin 7.5s linear infinite;
 }
 
-.bandera-i{
+.izq{
   bottom: 0;
   left: 0;
 }
 
-.bandera-d{
+.der{
   bottom: 0;
   right: 0;
 }
