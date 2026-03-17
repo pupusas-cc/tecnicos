@@ -11,7 +11,7 @@ body{
 h1{
   font-family: "Times New Roman", Times, serif;
   font-size: 34px;
-  color: black;
+  color: white;
   text-align: center;
   margin-top: 20px;
 }
@@ -19,22 +19,22 @@ h1{
 a{
   font-family: "Times New Roman", Times, serif;
   font-size: 26px;  
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
 a:visited{
-  color: black;
+  color: white;
 }
 
 a:hover{
-  color: black;
+  color: white;
 }
 
 footer{
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  color: black;
+  color: white;
   text-align: center;
   background: transparent;
   padding: 16px 20px;
