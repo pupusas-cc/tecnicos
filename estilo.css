@@ -1,39 +1,40 @@
 body{
   margin:0;
-  height:100vh;
+  min-height:100vh;
   background-color:#4798d1;
   display:flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items:center;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
-
 h1{
   font-family: "Times New Roman", Times, serif;
-  font-size: 34px;
+  font-size: clamp(1.1rem, 4vw, 2.1rem);
   color: white;
   text-align: center;
   margin-top: 20px;
 }
-
 a{
   font-family: "Times New Roman", Times, serif;
-  font-size: 26px;  
+  font-size: clamp(1rem, 3.5vw, 1.6rem);
   color: white;
   text-decoration: underline;
+  display: block;
+  text-align: center;
+  margin: 6px 0;
+  word-break: break-word;
 }
-
 a:visited{
   color: white;
 }
-
 a:hover{
   color: white;
 }
-
 footer{
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: clamp(0.8rem, 3vw, 1.25rem);
   color: white;
   text-align: center;
   background: transparent;
@@ -41,26 +42,23 @@ footer{
   margin-top: auto;
   width: 100%;
   box-sizing: border-box;
+  word-break: break-word;
 }
-
 .bandera{
   position: fixed;
-  width: 100px;
-  height: 100px;
+  width: clamp(50px, 10vw, 100px);
+  height: clamp(50px, 10vw, 100px);
   z-index: 9999;
   animation: spin 6s linear infinite;
 }
-
 .izq{
   bottom: 0;
   left: 0;
 }
-
 .der{
   bottom: 0;
   right: 0;
 }
-
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
